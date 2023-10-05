@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.navbar{
+  background-color: white !important;
+  /* box-shadow: 0rem 0.8rem rgba(0, 0, 0,.1); */
+  width: 100%;
+}
+
+.navbar-brand{
+  font-size: 1.8rem !important;
+  color: #16a085 !important;
+  font-weight: bold;
+  margin-left: 80px;
+}
+.menu-active{
+  font-weight: bold;
+  border-radius: 1px solid #16a085;
+}
+.nav-item .active{
+  color: #16a085 !important;
+}
+.nav-link{
+  font-size: 1.4rem !important;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.nav-item a:hover{
+  color: #16a085 !important;
+}
+.headers{
+  /* height: 90vh; */
+  background: lightgray;
+  padding-bottom: 10px;
+}
+.header{
+  background: lightgray;
+}
+.header span{
+  color: #16a085;
+}
+.header h1{
+  font-size: 3rem;
+  line-height: 1.8;
+  text-shadow: .5rem .5rem 2px rgba(0,0,0,.2);
+}
+.head{
+  margin-top: 150px !important;
+  padding-left: 90px !important;
+}
+.head h1{
+    font-size: 2rem;
+    color: #444;
+    line-height: 1.8;
+    text-shadow: .1rem .1rem 0 rgba(0,0,0,.2);
+}
+.head p{
+  font-size: 1.2rem;
+    color: #777;
+    line-height: 1.8;
+    padding: 1rem;
+}
+.btn{
+  font-size: 1.3rem;
+  display: inline-block;
+  margin: 1rem 0;
+  /* padding: 1rem; */
+  padding-left: 1rem;
+  border: .2rem solid #16a085 !important;
+  box-shadow: .5rem .5rem 2px rgba(22,160,133,.2);
+  border-radius: .5rem;
+  color: #16a085 !important;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background: #fff;
+  transition: 1s;
+}
+.btn:hover{
+  color: #fff !important;
+  background: #16a085 !important;
+}
+.btn span{
+  padding: .7rem 1rem;
+  border-radius: .5rem;
+  background: #16a085;
+  color: #fff;
+}
+.btn span:hover{
+  color: #16a085;
+  background: #fff;
+}
+
+.animated{
+  margin-top: 10px;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.icons-container{
+  margin: 70px 0px;
+}
+.icons-container .icons{
+  border: .2rem solid #16a085;
+  border-radius: 0.5rem;
+  box-shadow: .3rem .3rem 2px rgba(22,160,133,.2);
+  text-align: center;
+
+}
+.icons-container .icons i{
+  font-size: 3rem;
+  color: #16a085;
+  margin-top: 5px;
+}
+.icons-container .icons h3{
+font-size: 2rem;
+color: #444;
+/* text-shadow: .3rem .3rem 0 rgba(0,0,0,.2); */
+margin-top: 5px;
+}
+.icons-container .icons p{
+  font-size: 1.2rem;
+  color: #777;
+}
+.heading{
+    font-size: 3rem;
+    color: #444;
+    text-transform: uppercase;
+    text-shadow: .3rem .3rem 0 rgba(0,0,0,.2);
+}
+
+.icon-container{
+  padding-bottom: 50px;
+}
+.icon-container .icons{
+  border: .2rem solid #16a085;
+  border-radius: 0.5rem;
+  box-shadow: .3rem .3rem 2px rgba(22,160,133,.2);
+  text-align: center;
+
+}
+.icon-container .icons i{
+  font-size: 3rem;
+  color: #16a085;
+  margin-top: 5px;
+}
+.icon-container .icons h3{
+font-size: 2rem;
+color: #444;
+/* text-shadow: .3rem .3rem 0 rgba(0,0,0,.2); */
+margin-top: 5px;
+}
+.icon-container .icons p{
+  font-size: 1.2rem;
+  color: #777;
+}
+.icons img{
+        height: 12rem;
+        border: .2rem solid #16a085;
+        border-radius: .5rem;
+        margin-top: 1rem;
+        margin-bottom:  1rem;
+}
+.icons .share .ic{
+        text-decoration: none;
+        height: 3rem;
+        width: 3rem;
+        border: .2rem solid #16a085;
+        color: #16a085;
+        font-size: 2rem;
+        margin: .3rem; 
+        border-radius: .5rem;
+        padding-top: 5px;
+}
+.icons .share .ic:hover{
+        background-color: #16a085;
+        color: #fff;
+        box-shadow: .2rem .2rem 2px rgba(22,160,133,.2);
+}
+
+.footer{
+  background: lightgrey;
+}
+.footer .box{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.footer .box h3{
+  font-size: 2rem;
+  color: #444;
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+  .footer .box a{
+  text-transform: capitalize;
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #444;
+  padding: 0.5rem 0;
+}
+.footer .box a i{
+  color: #16a085;
+  padding-right: .5rem;
+}
+.footer .box a:hover i{ 
+  padding-right: 1.5rem;
+}
+.credit{
+  background: white;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.book{
+  background: lightgray;
+}
+.book .heading span{
+  color: #16a085;
+}
+.book Form{
+  margin-top: -80px;
+  border: .2rem solid #16a085;
+  text-align: center;
+  border-radius: .5rem;
+  box-shadow: .3rem .3rem 2px rgba(22,160,133,.2);
+  padding:1rem 2rem; 
+  margin-right: 50px;                                    
+}
+.book h3{
+  color: #444;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+.book form .box{
+  width: 100%;
+  border: .2rem solid #16a085;
+  border-radius: .5rem;
+  /* margin: .7rem 0; */
+  font-size: 1rem;
+  color: #444;
+  text-transform: none;
+  padding: 0.5rem;                    
+}
+
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  margin: 20px;
+}
+.form-container h1{
+  text-align: center;
+  color: #777;
+  font-weight: bold;
+}
+.cloud span{
+  color: #16a085;
+}
+.form-container .cloud{
+  border: 2px solid grey;
+  padding: 30px;
+  width: 30%;
+}
+.smile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.smile h6{
+  margin-top: 12px;
+}
+.remember span{
+  color: black;
+}
+.btn1{
+  background-color: rgb(9, 161, 249);
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+}
+.spinner{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+.dom{
+  justify-content: space-between;
+  margin: 0px 40px;
+}
+.che{
+  font-size: 25px;
+  /* background-color: white; */
+  /* border-radius: 100px; */
+
+}
+.che i{
+  font-size: 40px;
+  margin: 0px 10px;
+}
+.done span{
+  color: #16a085;
+}
